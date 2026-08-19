@@ -22,6 +22,9 @@ orchestrator.run_turn()  (backend/app/chat/orchestrator.py)
   5. log every turn (SQLAlchemy: sessions / messages / feedback)
 ```
 
+<img width="867" height="838" alt="{35A4D799-A7DA-4284-8EA5-A6AB0F27B1A1}" src="https://github.com/user-attachments/assets/7078f741-ec1e-4d3a-a47f-a65b01fa2bee" />
+
+
 The `/chat` endpoint streams `text/event-stream` frames: `event: token` for incremental
 reply text, then one final `event: done` carrying `{message_id, escalated, human_offered,
 intent, sentiment, sources}`. The frontend's custom `ChatModelAdapter` (`frontend/src/lib/
