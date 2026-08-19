@@ -1,0 +1,870 @@
+[
+  {
+    "id": 1,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "Overview",
+    "answer": "NovaCart Support — Customer Service Knowledge Base\n NovaCart Support\n Customer Service & Support Options Knowledge Base\nPurpose: This knowledge-base document defines how the NovaCart AI support agent should explain customer-service options,\nself-service tools, account management, order support, human assistance, and escalation paths.\nNovaCart Support Number: 987654321\nImportant: The support number above is the NovaCart project contact number supplied for this knowledge base. It should be treated\nas the official support number only within the NovaCart environment where this document is deployed."
+  },
+  {
+    "id": 2,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "1. NovaCart Customer Service",
+    "answer": "NovaCart Customer Service is available to help customers with orders, deliveries, returns, replacements, refunds, payments,\naccount access, subscriptions, product issues, and other supported shopping-related concerns.\nCustomers can use NovaCart self-service tools for common issues or contact a human support agent when they need assistance\nthat cannot be completed through self-service or the AI assistant."
+  },
+  {
+    "id": 3,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "2. Main Support Channels",
+    "answer": "Channel\nPurpose\nAI Agent Guidance\nNovaCart AI Chat\nFirst-line support for common questions and guided troubleshooting.\nUse the knowledge base and verified customer/order data. Escalate when needed.\nPhone Support\nHuman assistance for cases requiring conversation, verification, or escalation.\nProvide 987654321 when phone support is appropriate.\nSelf-Service\nCustomers resolve common order/account issues themselves.\nGuide the customer to the correct NovaCart section or workflow.\nHuman Escalation\nComplex, sensitive, disputed, or unresolved cases.\nPass existing conversation context so the customer does not need to repeat everything."
+  },
+  {
+    "id": 4,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "3. When Customers Should Contact NovaCart Support",
+    "answer": " The customer cannot resolve an order issue through self-service.\n The order is delayed beyond the applicable tracking guidance.\n The package is marked delivered but has not been received.\n A return, replacement, or refund requires manual review.\n A payment was charged but the order failed.\n The customer disputes a refund, payment, or order outcome.\n The account has a security or access problem.\n A product has a potentially dangerous defect or safety issue.\n The customer explicitly asks for a human agent or manager.\n The AI does not have enough verified information to answer correctly."
+  },
+  {
+    "id": 5,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "4. Managing Orders",
+    "answer": "Customers can use the NovaCart Order History area to manage purchases and access order-specific information.\n View order details.\n Track a package.\n Review delivery information.\n Request cancellation when eligible.\n Start a return or replacement workflow when eligible.\n View available invoice/order documentation.\nNovaCart Support — Customer Service Knowledge Base\n Get help with orders fulfilled or shipped by participating sellers."
+  },
+  {
+    "id": 6,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "5. Order-Specific AI Behavior",
+    "answer": "Order ID already known\nReuse the order ID from the current session. Do not ask the customer to repeat it unnecessarily.\nOrder ID missing\nAsk for the minimum safe identifier needed to locate the order.\nMultiple orders\nAsk which order the customer means only when the conversation context does not make it clear.\nMultiple items\nIdentify the specific item/shipment because items may have separate tracking and delivery information.\nNo verified order data\nDo not invent order details. Explain that the system cannot currently verify the requested information and offer escalation."
+  },
+  {
+    "id": 7,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "refund_cancellation",
+    "question": "6. Returns, Replacements & Refunds",
+    "answer": " Customers can initiate an eligible return or replacement through the order-support workflow.\n Return eligibility depends on the applicable product/category policy and return window.\n Damaged, defective, missing-accessory, and wrong-item cases may require verification.\n Refund status should be checked using verified transaction data.\n The AI must not promise a refund amount or completion date without verified information.\n If the self-service return/refund process fails, the case can be escalated to human support."
+  },
+  {
+    "id": 8,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "returns_exchanges",
+    "question": "7. Managing Returns",
+    "answer": "Customers should use the NovaCart returns area to view active returns, review status, and follow the applicable return workflow.\nAI rule: If a customer asks “Where is my return?” or “Where is my refund?”, distinguish between return status and refund status.\nThey are different states and should not be treated as the same."
+  },
+  {
+    "id": 9,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "account_subscription",
+    "question": "8. Managing Customer Account Information",
+    "answer": "Customers can manage their personal account information through NovaCart Account settings.\n Name and profile information.\n Registered email address.\n Registered mobile number.\n Password and account-security settings.\n Payment methods.\n Transaction/payment information where supported."
+  },
+  {
+    "id": 10,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "account_subscription",
+    "question": "9. Account & Login Support",
+    "answer": " For password problems, direct the customer to the approved account-recovery workflow.\n Never ask the customer to provide their password.\n Never request or accept OTP, PIN, CVV, recovery codes, or full payment-card details.\n For suspected unauthorized account access, prioritize account security and escalate when required.\n If the AI cannot verify or resolve the account issue, route the customer to human support.\nNovaCart Support — Customer Service Knowledge Base"
+  },
+  {
+    "id": 11,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "payments_pricing",
+    "question": "10. Payment Support",
+    "answer": " Customers can manage supported payment methods through their account.\n For failed payments, guide the customer through the supported retry/payment workflow.\n For charged-but-failed orders, verify the transaction before discussing refunds.\n For disputed transactions, escalate to the appropriate payment-support workflow.\n Never ask customers to disclose authentication secrets."
+  },
+  {
+    "id": 12,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "11. Self-Service vs Human Support Decision Policy",
+    "answer": "Customer issue\nPreferred first action\nEscalate when\nTrack order\nOrder History / Track Package\nTracking is unavailable, contradictory or unresolved.\nCancel order\nOrder cancellation workflow\nCancellation is unavailable or exception is requested.\nReturn item\nReturn workflow\nEligibility, verification or policy exception needs review.\nRefund status\nReturns/refund status\nTransaction needs back-office verification.\nPayment issue\nPayment/account workflow\nCharged-but-failed, disputed or suspicious transaction.\nAccount issue\nAccount/security workflow\nRecovery fails or security incident is reported.\nProduct problem\nApproved troubleshooting\nSafety issue, unsupported problem or repeated failure.\nGeneral question\nAI knowledge base\nKnowledge base does not contain a reliable answer.\nNovaCart Support — Customer Service Knowledge Base\n12. 50 Customer Service Q&A;\nID\nCustomer question\nNovaCart answer\nQ01"
+  },
+  {
+    "id": 13,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "11. Self-Service vs Human Support Decision Policy",
+    "answer": "12. 50 Customer Service Q&A;\nID\nCustomer question\nNovaCart answer\nQ01\nHow can I contact NovaCart Customer Service?\nYou can contact NovaCart Support through the available support workflow. For phone support, call 987654321.\nQ02\nWhat is NovaCart's customer service number?\nNovaCart Customer Service can be reached at 987654321.\nQ03\nCan I talk to a human agent?\nYes. You can request human support, and the AI can escalate the conversation.\nQ04\nI want to speak to a manager.\nYour request can be escalated to the appropriate human-support workflow.\nQ05\nIs customer support available for order problems?\nYes. NovaCart Support can help with order tracking, delivery, cancellation, returns, replacements and refunds.\nQ06\nHow do I manage my order?\nOpen your NovaCart Order History and select the relevant order.\nQ07\nCan I cancel my order?"
+  },
+  {
+    "id": 14,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "11. Self-Service vs Human Support Decision Policy",
+    "answer": "How do I manage my order?\nOpen your NovaCart Order History and select the relevant order.\nQ07\nCan I cancel my order?\nIf cancellation is available for the order's current fulfillment stage, use the cancellation workflow.\nQ08\nCan I track my package?\nYes. Open Order History, select the order, choose Track Package and review the available updates.\nQ09\nCan I return an item myself?\nIf the item is eligible, use the return workflow from the order details.\nQ10\nWhere can I see my return status?\nUse the NovaCart returns/status area or the relevant order details.\nQ11\nWhere can I see my refund status?\nUse the refund/return status workflow. If verified status is unavailable, contact human support.\nQ12\nI need help with a third-party seller order.\nNovaCart can provide the supported order-help workflow. Seller-specific issues may require seller contact or escalation.\nQ13\nCan I get an invoice?"
+  },
+  {
+    "id": 15,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "11. Self-Service vs Human Support Decision Policy",
+    "answer": "Q13\nCan I get an invoice?\nCheck the order details and available invoice/documentation options.\nQ14\nHow do I change my account information?\nOpen your NovaCart Account settings and manage the available profile fields.\nQ15\nCan I change my email address?\nUse the account settings workflow if the change is supported.\nQ16\nCan I change my phone number?\nUse the account settings workflow if the change is supported.\nQ17\nHow do I change my password?\nUse the NovaCart account-security/password workflow. Never share your current password with support.\nQ18\nI forgot my password.\nUse the approved account-recovery process. If it fails, contact human support.\nQ19\nMy account may have been compromised.\nSecure the account using the approved security workflow and escalate the case.\nQ20\nCan I manage my payment methods?\nYes. Use the Payments section of your NovaCart Account.\nQ21"
+  },
+  {
+    "id": 16,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "11. Self-Service vs Human Support Decision Policy",
+    "answer": "Q20\nCan I manage my payment methods?\nYes. Use the Payments section of your NovaCart Account.\nQ21\nCan I see my payment transactions?\nUse the account/payment section where transaction information is available.\nQ22\nMy payment failed.\nRetry using the supported payment workflow. If the issue continues, contact support.\nQ23\nI was charged but my order failed.\nThis requires transaction verification. NovaCart Support can check the supported payment/refund workflow.\nQ24\nCan you tell me my card number?\nNo. Support must never reveal full payment-card information.\nQ25\nCan I give you my OTP?\nNo. Never share an OTP with the AI or support agent.\nQ26\nCan I give you my CVV?\nNo. Never share your CVV.\nQ27\nI can't access my account.\nUse account recovery first. If you cannot regain access, escalate to human support.\nQ28\nWhere can I get help for my order?"
+  },
+  {
+    "id": 17,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "11. Self-Service vs Human Support Decision Policy",
+    "answer": "Q28\nWhere can I get help for my order?\nStart from Order History or contact NovaCart Support at 987654321.\nQ29\nCan I get help with a delivery problem?\nYes. The AI can check the supported delivery workflow or escalate the case.\nQ30\nMy package says delivered but I don't have it.\nUse the missing-package workflow and escalate if the package cannot be located.\nQ31\nMy package is delayed.\nCheck the latest tracking information and apply the applicable shipment-delay guidance.\nQ32\nMy package says undeliverable.\nVerify the shipping address and follow the undeliverable-package workflow.\nQ33\nMy package is returning to the seller.\nThe tracking status indicates a return-to-seller process. The next resolution should be determined from verified order data.\nQ34\nI received the wrong product.\nUse the damaged/wrong-product return or replacement workflow. Verification may be required.\nQ35"
+  },
+  {
+    "id": 18,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "11. Self-Service vs Human Support Decision Policy",
+    "answer": "Use the damaged/wrong-product return or replacement workflow. Verification may be required.\nQ35\nMy product arrived damaged.\nReport the issue through the order-support workflow. Photos or verification may be requested.\nQ36\nMy product is defective.\nUse the product-support/return workflow. Certain products may require technician or service-centre assessment.\nQ37\nI cannot complete my return online.\nContact NovaCart Support at 987654321 for assistance.\nQ38\nMy refund has not arrived.\nCheck verified refund status. If it requires transaction verification, escalate.\nQ39\nCan I call NovaCart instead of using chat?\nYes. NovaCart phone support is available at 987654321.\nQ40\nWhat should I tell support when I call?\nHave the relevant order ID and a short description of the issue ready. Do not share passwords, OTPs, PINs or payment authentication secrets.\nQ41"
+  },
+  {
+    "id": 19,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "11. Self-Service vs Human Support Decision Policy",
+    "answer": "Q41\nDo I need to repeat everything when I reach a human agent?\nThe AI should pass the conversation context and relevant details to the human workflow so repetition is minimized.\nNovaCart Support — Customer Service Knowledge Base\nID\nCustomer question\nNovaCart answer\nQ42\nWhat if the AI cannot answer my question?\nThe AI should explain that it lacks verified information and offer human escalation.\nQ43\nCan I complain about an order?\nYes. Provide the order details and issue. The case can be escalated when necessary.\nQ44\nCan I complain about a delivery experience?\nYes. Provide the relevant order and delivery details so the issue can be routed appropriately.\nQ45\nCan I ask for urgent support?\nYes. Explain the issue clearly. Safety, fraud, security and serious transaction issues should receive appropriate escalation.\nQ46\nWhat if I have a safety issue with a product?"
+  },
+  {
+    "id": 20,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "11. Self-Service vs Human Support Decision Policy",
+    "answer": "Q46\nWhat if I have a safety issue with a product?\nStop using the product if there is an immediate safety risk and contact NovaCart Support for human assistance.\nQ47\nCan NovaCart help with account security?\nYes. Use the approved account-security workflow and escalate suspicious-access cases.\nQ48\nCan I manage my information without contacting support?\nYes. Common account information and payment-management tasks can be handled through Account settings where supported.\nQ49\nWhat information should I never give support?\nNever provide passwords, OTPs, PINs, CVVs, full card numbers, recovery codes or other authentication secrets.\nQ50\nHow can I provide feedback about NovaCart Support?\nUse the available thumbs-up/down or text feedback mechanism. Feedback should be stored with the support session and timestamp.\nNovaCart Support — Customer Service Knowledge Base"
+  },
+  {
+    "id": 21,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "13. Human Escalation Playbook",
+    "answer": "Customer explicitly asks for a human\nRespond positively and provide the phone number 987654321 or initiate the human-support workflow.\nAI cannot verify the answer\nNever guess. Explain the limitation and escalate.\nPayment dispute\nUse verified transaction data and route to payment support.\nAccount compromise\nDo not request credentials. Prioritize account security and human escalation.\nSafety complaint\nPrioritize customer safety and human escalation.\nRepeated frustration\nAcknowledge the frustration, summarize the existing context, and avoid unnecessary repeated questions.\nPolicy exception\nExplain that the request requires manual review and escalate."
+  },
+  {
+    "id": 22,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "14. Agent Conversation Templates",
+    "answer": "General support: “I can help with that. Let me check the relevant NovaCart information.”\nPhone support: “If you'd prefer to speak with a human agent, you can contact NovaCart Support at 987654321. ”\nEscalation: “This case needs human assistance because {reason}. I’ll pass along the information you've already provided so you\ndon't have to repeat it.”\nUnable to answer: “I don't have enough verified NovaCart information to answer that accurately. I don't want to guess. I can\nconnect you with human support.”\nSecurity: “Please do not share your password, OTP, PIN, CVV, full card number, or recovery code. I can help without those\ndetails.”\nFeedback: “Was this helpful? ■ / ■ You can also leave a short comment about what we could improve.”"
+  },
+  {
+    "id": 23,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "15. AI Guardrails",
+    "answer": " Never invent a support policy or contact method.\n Use 987654321 as the NovaCart support number in this knowledge base.\n Never claim that a human agent has been contacted unless the escalation system confirms it.\n Never request passwords, OTPs, PINs, CVVs or full payment-card information.\n Never disclose another customer's account/order information.\n Never fabricate order status, refund status, delivery information or account data.\n Keep answers within NovaCart support scope.\n Use existing conversation context and avoid unnecessary repeated questions.\n Escalate sensitive, disputed, unsafe or unsupported issues."
+  },
+  {
+    "id": 24,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "16. RAG Metadata",
+    "answer": "document_id: novacart_customer_service_support\ncategory: customer_service\nversion: 1.0\nNovaCart Support — Customer Service Knowledge Base\npriority: high\ntopics: support_channels, phone_support, self_service, orders, account, payments, escalation, security, feedback\nRecommended chunks: support_channels, phone_support, order_management, returns, refunds, account_management,\nlogin_security, payment_management, human_escalation, faq."
+  },
+  {
+    "id": 25,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "17. Logging & Feedback",
+    "answer": "For each support interaction, store conversation_id, session_id, timestamp, intent, customer_message,\nretrieved_document_ids, assistant_response, escalation_flag, escalation_reason, feedback_rating, feedback_comment.\nDo not store authentication secrets.\nNegative feedback should be reviewed to identify whether the issue came from retrieval, missing policy coverage, incorrect intent\nclassification, poor context retention, or an incorrect generated response."
+  },
+  {
+    "id": 26,
+    "source": "NovaCart_Customer_Service_Support_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "18. Support Contact Summary",
+    "answer": "NovaCart Customer Service: 987654321\nUse this number when the customer needs phone support, explicitly requests a human, or the AI cannot safely resolve the issue\nthrough the available self-service and knowledge-base workflows."
+  },
+  {
+    "id": 27,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "Overview",
+    "answer": "NovaCart Support — Order Tracking Knowledge Base\n NovaCart Support\n Order Tracking & Delivery Knowledge Base\nPurpose: This document is the dedicated knowledge-base source for NovaCart's AI support agent when handling order tracking,\ndelivery status, courier identification, delayed shipments, in-transit issues, undeliverable packages, and orders marked as delivered\nbut not received.\nGrounding rule: The AI must use verified NovaCart order/tracking data whenever the customer asks about a specific order. It must\nnot invent a tracking status, courier, delivery date, location, or resolution."
+  },
+  {
+    "id": 28,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "order_tracking",
+    "question": "1. Order Tracking — Core Policy",
+    "answer": "Customers can access their NovaCart order history to find order details and tracking information. For a specific order, the support\nagent should first identify the relevant order and then use the available tracking information.\nThe standard NovaCart tracking flow is:\n Open Your Orders / Order History.\n Identify the order that the customer wants to track.\n Open Track Package for that order.\n Open See All Updates to view the shipment timeline and available delivery-partner information."
+  },
+  {
+    "id": 29,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "2. Multiple Items in One Order",
+    "answer": "An order can contain multiple items. Each item may have its own delivery date, shipment, tracking information, and delivery status.\nAgent rule: Do not assume that all items in one order share the same delivery date or tracking number. If the customer asks about a\nparticular item, identify the item first."
+  },
+  {
+    "id": 30,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "3. Seller-Shipped Orders",
+    "answer": "Seller-shipped items may have tracking information only when the seller has shared the tracking details with NovaCart or when the\nshipment method provides traceable tracking.\nAgent rule: If tracking information is unavailable for a seller-shipped item, do not fabricate a courier or tracking ID. Explain that\ntracking depends on information supplied by the seller and escalate/contact the seller workflow when appropriate."
+  },
+  {
+    "id": 31,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "order_tracking",
+    "question": "4. Identifying the Delivery Partner",
+    "answer": "A NovaCart order may be delivered by NovaCart or by a third-party courier. The delivery partner should be identified from verified\norder/tracking data.\nFor seller-shipped products, the order/product information may indicate that the product is sold and shipped by the seller.\nAgent rule: Never guess the delivery partner from the tracking number format alone. Use the verified shipment data."
+  },
+  {
+    "id": 32,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "5. Delayed Package Policy",
+    "answer": "When a package has passed its estimated delivery date, the customer should first check the latest tracking updates. The supplied\nsource specifies the following waiting guidance:\n NovaCart-shipped package: allow one additional day after the estimated delivery date.\n Third-party courier package: allow up to five additional days after the estimated delivery date.\nImportant: This waiting guidance should only be applied when the shipment type is verified. If the AI cannot determine whether the\nshipment is NovaCart-shipped or third-party, it must not guess."
+  },
+  {
+    "id": 33,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "6. In-Transit Issues",
+    "answer": "Customers should check the tracking timeline for the exact status message and follow the instructions associated with that status.\nNovaCart Support — Order Tracking Knowledge Base\nImportant in-transit/problem statuses include messages such as:\n Problem occurred\n Returning to Seller\n Undeliverable\nIf the tracking status indicates an address or delivery problem, the customer should verify that the shipping address is complete and\naccurate.\nA complete address may include:\n Building name or number\n Street number\n Area or locality\n Nearest landmark\n City, town or village\n Correct PIN code"
+  },
+  {
+    "id": 34,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "7. Undeliverable Package",
+    "answer": "If an order is marked undeliverable, the AI should first explain the verified status and then guide the customer to check the shipping\naddress and tracking instructions.\nCommon address checks include building/house information, street, locality, landmark, city/town/village, and PIN code.\nAgent rule: Do not claim that an order will automatically be re-shipped, refunded, or cancelled unless the order system or applicable\nNovaCart policy confirms the outcome."
+  },
+  {
+    "id": 35,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "8. Package Marked 'Delivered' but Not Received",
+    "answer": "If tracking says the package was delivered but the customer has not received it, the customer should contact NovaCart Support\nwithin seven days of the order being marked as delivered.\nThe AI should gather the order ID and use the available delivery information. If the package cannot be located through the supported\nworkflow, escalate the missing-package case."
+  },
+  {
+    "id": 36,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "9. What the AI Should Ask",
+    "answer": " What is your NovaCart order ID?\n Which item in the order are you asking about, if the order contains multiple items?\n What does the latest tracking update say?\n Has the estimated delivery date already passed?\n Is the package shown as delivered, delayed, returning to seller, or undeliverable?\n If marked delivered, when was it marked delivered?\nContext rule: If the customer already provided the order ID and item, do not ask for them again unless the information is ambiguous\nor invalid."
+  },
+  {
+    "id": 37,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "order_tracking",
+    "question": "10. Order Tracking Response Rules",
+    "answer": "Specific order status available\nState the latest verified status and the verified estimated delivery information.\nNo tracking data\nExplain that tracking information is not currently available and avoid inventing a courier/status.\nDelayed\nNovaCart Support — Order Tracking Knowledge Base\nState the verified estimated date, explain the applicable waiting guidance, and offer escalation when the supported threshold is\nexceeded.\nProblem occurred\nTell the customer to follow the tracking instructions and escalate if the issue cannot be resolved from available information.\nReturning to seller\nExplain that the shipment is shown as returning to the seller and escalate/check the order workflow for the next resolution.\nUndeliverable\nAsk the customer to verify the shipping address and follow the supported undeliverable-package workflow.\nDelivered but not received"
+  },
+  {
+    "id": 38,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "order_tracking",
+    "question": "10. Order Tracking Response Rules",
+    "answer": "Delivered but not received\nFollow the missing-package workflow and escalate when the package cannot be located.\nSeller-shipped with no tracking\nExplain that seller-shipped tracking depends on information supplied by the seller; do not invent tracking information."
+  },
+  {
+    "id": 39,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "order_tracking",
+    "question": "11. Customer Q&A; — Order Tracking",
+    "answer": "ID\nCustomer question\nNovaCart answer\nQ01\nHow can I track my NovaCart order?\nOpen your Order History, select the order, choose Track Package, and open See All Updates to view the latest tracking information.\nQ02\nWhere can I find my order details?\nOpen your NovaCart Order History and select the relevant order.\nQ03\nWhere do I find tracking updates?\nOpen the order and select Track Package, then See All Updates.\nQ04\nHow do I know which courier has my package?\nThe delivery partner should appear in the verified shipment/tracking information.\nQ05\nWho delivers NovaCart orders?\nOrders may be delivered by NovaCart or by a third-party courier. The specific delivery partner must be verified for the shipment.\nQ06\nMy order has multiple items. Do they arrive together?\nNot necessarily. Different items can have separate delivery dates and tracking information.\nQ07"
+  },
+  {
+    "id": 40,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "order_tracking",
+    "question": "11. Customer Q&A; — Order Tracking",
+    "answer": "Not necessarily. Different items can have separate delivery dates and tracking information.\nQ07\nWhy do I have different tracking numbers for one order?\nDifferent items in the same order may be shipped separately and therefore have separate tracking information.\nQ08\nMy seller-shipped order has no tracking information.\nSeller-shipped tracking depends on the seller providing tracking information or using a traceable shipping method.\nQ09\nMy package is delayed. What should I do?\nCheck the latest tracking update first. For a NovaCart-shipped package, the supplied policy advises allowing one additional day; for a third-party courier, allow five additional days.\nQ10\nMy delivery date has passed. Is my package lost?\nNot necessarily. Check the latest tracking update and apply the appropriate delay guidance before treating it as a missing shipment.\nQ11\nMy NovaCart-shipped package is late."
+  },
+  {
+    "id": 41,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "order_tracking",
+    "question": "11. Customer Q&A; — Order Tracking",
+    "answer": "Q11\nMy NovaCart-shipped package is late.\nAllow one additional day after the estimated delivery date and check the latest tracking updates.\nQ12\nMy third-party courier package is late.\nAllow five additional days after the estimated delivery date and check the latest tracking information.\nQ13\nThe tracking says 'Problem occurred'.\nCheck the detailed tracking message and follow the instructions shown. If the issue cannot be resolved, escalate the case.\nQ14\nThe tracking says 'Returning to Seller'.\nThe shipment is currently shown as returning to the seller. The next resolution should be determined from the verified order workflow.\nQ15\nThe tracking says 'Undeliverable'.\nVerify that the shipping address is complete and accurate, including building/house, street, locality, landmark, city/town/village and PIN code.\nQ16\nWhy was my package marked undeliverable?"
+  },
+  {
+    "id": 42,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "order_tracking",
+    "question": "11. Customer Q&A; — Order Tracking",
+    "answer": "Q16\nWhy was my package marked undeliverable?\nCheck the tracking message and verify the shipping address. If the reason remains unclear, escalate using the supported workflow.\nQ17\nMy address is correct but the package is undeliverable.\nVerify the full address and tracking instructions. If the address is correct and the issue persists, escalate.\nQ18\nMy package says delivered but I don't have it.\nContact NovaCart Support within seven days of the order being marked delivered and follow the missing-package workflow.\nQ19\nHow long do I have to report a package marked delivered but not received?\nThe supplied policy specifies contacting support within seven days of the order being marked delivered.\nQ20\nCan the AI tell me exactly where my package is?\nOnly if verified tracking data provides the package's current location/status. The AI must not guess.\nQ21\nCan you give me my courier's name?"
+  },
+  {
+    "id": 43,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "order_tracking",
+    "question": "11. Customer Q&A; — Order Tracking",
+    "answer": "Q21\nCan you give me my courier's name?\nYes, when the verified shipment data contains the delivery partner.\nQ22\nCan you give me my tracking ID?\nIf the tracking ID is present in verified order data, the AI can provide it according to the application's privacy rules.\nQ23\nMy tracking hasn't updated.\nCheck the latest available tracking event. If it is stale or contradictory, escalate rather than guessing the package location.\nQ24\nMy package is stuck in transit.\nCheck the latest verified tracking message and follow its instructions. Escalate if the supported workflow cannot resolve the issue.\nQ25\nMy package is going back to the seller.\nThe tracking indicates that the package is returning to the seller. The next step should be determined from the verified order workflow.\nQ26\nCan I change my address while the order is in transit?"
+  },
+  {
+    "id": 44,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "order_tracking",
+    "question": "11. Customer Q&A; — Order Tracking",
+    "answer": "Q26\nCan I change my address while the order is in transit?\nAddress changes depend on the order/fulfillment workflow. Do not promise a change after shipment without verification.\nQ27\nCan I change my delivery date?\nOnly if the available delivery workflow supports rescheduling for the order.\nNovaCart Support — Order Tracking Knowledge Base\nID\nCustomer question\nNovaCart answer\nQ28\nWhat if nobody is home when the courier arrives?\nFollow the verified delivery workflow for the shipment. The AI must not invent a reattempt schedule.\nQ29\nMy package is delayed by one day. Should I contact support?\nFor a NovaCart-shipped package, the supplied guidance says to allow one additional day. Check tracking before escalating.\nQ30\nMy third-party package is delayed by two days.\nThe supplied guidance allows up to five additional days for third-party courier packages. Check tracking for updates.\nQ31"
+  },
+  {
+    "id": 45,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "order_tracking",
+    "question": "11. Customer Q&A; — Order Tracking",
+    "answer": "Q31\nMy package is delayed by more than the allowed waiting period.\nCheck the latest verified tracking status and escalate the shipment issue.\nQ32\nHow do I check the courier?\nOpen Track Package and See All Updates; the verified shipment details should identify the delivery partner when available.\nQ33\nCan a seller ship my order directly?\nYes. Seller-shipped items can have separate tracking information when the seller provides it or the shipping method is traceable.\nQ34\nMy seller has not provided tracking.\nTracking availability depends on the seller sharing tracking information. The issue can be escalated or the seller-contact workflow can be used.\nQ35\nWhy does each item have a different delivery date?\nItems can be shipped separately, so each item may have its own delivery date and tracking information.\nQ36\nMy package was marked delivered yesterday but I never got it."
+  },
+  {
+    "id": 46,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "order_tracking",
+    "question": "11. Customer Q&A; — Order Tracking",
+    "answer": "Q36\nMy package was marked delivered yesterday but I never got it.\nBecause it is marked delivered but not received, use the missing-package workflow and contact support within the applicable seven-day window.\nQ37\nThe courier says delivered but my order is not here.\nUse the verified delivery information and missing-package workflow. Escalate if the package cannot be located.\nQ38\nCan you guarantee my package arrives today?\nNo. The AI should provide only the verified estimated delivery information and must not make an unsupported guarantee.\nQ39\nCan you tell me the exact delivery time?\nOnly if the verified delivery system provides an exact time or delivery slot. Otherwise provide the available estimate.\nQ40\nWhy is the delivery estimate changing?\nDelivery estimates can change as tracking information is updated. Use the latest verified estimate.\nQ41"
+  },
+  {
+    "id": 47,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "order_tracking",
+    "question": "11. Customer Q&A; — Order Tracking",
+    "answer": "Delivery estimates can change as tracking information is updated. Use the latest verified estimate.\nQ41\nMy order says shipped but there is no movement.\nCheck the latest tracking event. If the shipment remains without updates beyond the supported threshold, escalate.\nQ42\nWhat should I do if tracking shows a problem?\nRead the specific tracking message and follow its instructions. Escalate if the instructions do not resolve the issue.\nQ43\nWhat address details should I verify?\nVerify building/house number, street, area/locality, landmark, city/town/village and PIN code.\nQ44\nMy PIN code is wrong. What should I do?\nIf the order workflow permits an address correction, use it; otherwise escalate. Do not promise an address change after shipment.\nQ45\nCan I contact the seller for seller-shipped orders?\nYes. Seller-shipped issues may be handled through the seller-contact workflow when appropriate."
+  },
+  {
+    "id": 48,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "order_tracking",
+    "question": "11. Customer Q&A; — Order Tracking",
+    "answer": "Yes. Seller-shipped issues may be handled through the seller-contact workflow when appropriate.\nQ46\nCan I track a seller-shipped order?\nYes, when the seller has provided tracking information or the shipment method is traceable.\nQ47\nWhy can't I see tracking for my seller order?\nThe seller may not have supplied tracking information, or the shipment may not use a traceable method.\nQ48\nWhat does 'returning to seller' mean?\nIt means the tracking system currently shows the package as being returned to the seller.\nQ49\nWhat does 'undeliverable' mean?\nIt means the shipment could not be delivered through the current delivery process. Verify the address and follow the tracking instructions.\nQ50\nWhat should I do after my package is marked delivered but missing?\nContact support within seven days of the delivered status and follow the missing-package process.\nQ51"
+  },
+  {
+    "id": 49,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "order_tracking",
+    "question": "11. Customer Q&A; — Order Tracking",
+    "answer": "Contact support within seven days of the delivered status and follow the missing-package process.\nQ51\nCan you track an order without an order ID?\nFor account-specific tracking, an order ID or verified account/order context is normally needed. The AI should ask for the minimum safe identifier.\nQ52\nI already gave you my order ID. Why are you asking again?\nYou shouldn't need to repeat it if it is still available in the session. The agent should reuse the existing order context.\nQ53\nCan you remember my order ID?\nYes, during the current support session the agent should retain the order ID so you do not have to repeat it unnecessarily.\nQ54\nI have two orders. Which one are you tracking?\nPlease identify the order you mean, or provide the relevant order ID if it is not clear from the conversation.\nQ55\nMy order has two shipments."
+  },
+  {
+    "id": 50,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "order_tracking",
+    "question": "11. Customer Q&A; — Order Tracking",
+    "answer": "Q55\nMy order has two shipments.\nThat can happen when items are shipped separately. Each shipment may have its own tracking information and delivery date.\nQ56\nMy tracking information conflicts with what the courier told me.\nThe AI should rely on verified NovaCart tracking data and escalate if the information cannot be reconciled.\nQ57\nThe tracking says delivered but the courier never came.\nUse the missing-package workflow and escalate for delivery verification.\nQ58\nMy package is delayed because of an address issue.\nVerify the complete shipping address and follow the instructions shown in tracking. Escalate if the address is correct but delivery remains blocked.\nQ59\nI want a human agent to check my package.\nYes. The conversation can be escalated to human support, and the existing order context should be passed along.\nQ60\nCan I give feedback about the tracking support?"
+  },
+  {
+    "id": 51,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "order_tracking",
+    "question": "11. Customer Q&A; — Order Tracking",
+    "answer": "Q60\nCan I give feedback about the tracking support?\nYes. Use the ■/■ feedback control or provide a short comment.\nNovaCart Support — Order Tracking Knowledge Base"
+  },
+  {
+    "id": 52,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "13. AI Response Templates",
+    "answer": "Normal tracking: “I found your order {order_id}. The latest verified status is {status}, with an estimated delivery of {date}.”\nDelayed: “Your order is past its estimated delivery date. The latest tracking status is {status}. Based on the applicable shipment\ntype, the current guidance is {waiting_guidance}.”\nDelivered but missing: “Your order is showing as delivered, but you haven't received it. This needs the missing-package\nworkflow. Please contact NovaCart Support within seven days of the delivered status.”\nUndeliverable: “Your tracking shows the package as undeliverable. Please verify your full shipping address, including\nbuilding/house, street, locality, landmark, city/town/village and PIN code.”\nNo tracking: “I don't have verified tracking information for this shipment. I don't want to guess the courier or package status. I can\nescalate this for further help.”"
+  },
+  {
+    "id": 53,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "13. AI Response Templates",
+    "answer": "escalate this for further help.”\nHuman escalation: “I can escalate this to a human support agent. I’ll pass along the order and issue details already provided so\nyou don't have to repeat them.”"
+  },
+  {
+    "id": 54,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "order_tracking",
+    "question": "14. Order Tracking Guardrails",
+    "answer": " Never fabricate a tracking ID, courier, shipment location, status, or delivery date.\n Never claim a package is lost solely because the estimated delivery date has passed.\n Never assume all items in one order have the same delivery date.\n Never assume seller-shipped packages have tracking information.\n Never promise automatic refund/replacement after an undeliverable or returning-to-seller status unless verified.\n Never expose another customer's tracking or address information.\n Never ask for passwords, OTPs, PINs, CVVs, or full card numbers.\n If the order status is ambiguous or contradictory, escalate rather than guessing."
+  },
+  {
+    "id": 55,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "15. RAG Metadata Recommendations",
+    "answer": "document_id: novacart_order_tracking\ncategory: order_tracking\nversion: 1.0\neffective_date: project-defined\npriority: high\ntopics: tracking, delivery, delay, courier, undeliverable, delivered_missing, seller_shipped\nRecommended chunk boundaries: tracking_steps, multiple_items, seller_shipped, delivery_partner, delayed_packages,\nin_transit_issues, undeliverable, delivered_not_received, escalation, faq."
+  },
+  {
+    "id": 56,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "16. Suggested Intent Classification",
+    "answer": "Intent\nExamples\nEntities\norder_tracking\ntrack order; where is package\norder_id, item\ndelivery_partner\nwhich courier; delivery partner\norder_id, courier\ndelayed_delivery\nlate; past delivery date\norder_id, date\nin_transit_issue\nproblem occurred; stuck in transit\norder_id, status\nundeliverable\nundeliverable; address issue\norder_id, address\nreturning_to_seller\nreturning to seller\norder_id, status\ndelivered_not_received\nmarked delivered; didn't receive\norder_id, delivered_date\nseller_shipped\nseller tracking; seller courier\norder_id, seller\nreschedule\nchange delivery date\norder_id, date\nescalation\nhuman; agent; manager\norder_id, reason\nNovaCart Support — Order Tracking Knowledge Base\nIntent\nExamples\nEntities\nfeedback\nrate support; thumbs down\nrating, comment"
+  },
+  {
+    "id": 57,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "17. Logging Requirements",
+    "answer": "For each tracking conversation, store conversation_id, session_id, timestamp, order_id/reference, intent,\nlatest_verified_status, retrieved_document/chunk IDs, assistant response, confidence score, escalation flag/reason,\nfeedback rating and feedback comment. Do not store authentication secrets."
+  },
+  {
+    "id": 58,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "18. Example Multi-Turn Flows",
+    "answer": "Flow A — Delayed package\nCustomer: Where is order NC1024?\nAgent: I have order NC1024. Let me check the verified tracking status.\nCustomer: It was due yesterday.\nAgent: The latest status is {status}. Since this is a {shipment_type} shipment, the applicable delay guidance is {guidance}.\nFlow B — Delivered but missing\nCustomer: My package says delivered but I don't have it.\nAgent: I can help with that. Please confirm the order if it is not already in the session. Because it is marked delivered but not\nreceived, the missing-package workflow applies and support should be contacted within seven days of the delivered status.\nFlow C — Multiple items\nCustomer: Where is my order?\nAgent: I can check it. Your order contains multiple shipments. Which item are you asking about? If the item is already clear from the\nconversation, the agent should not ask again.\nFlow D — Undeliverable"
+  },
+  {
+    "id": 59,
+    "source": "NovaCart_Order_Tracking_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "18. Example Multi-Turn Flows",
+    "answer": "conversation, the agent should not ask again.\nFlow D — Undeliverable\nCustomer: Why can't you deliver my package?\nAgent: The tracking shows the shipment as undeliverable. Please verify your complete shipping address. If the address is correct\nand the issue remains, I can escalate the case."
+  },
+  {
+    "id": 60,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "Overview",
+    "answer": "NovaCart Support AI Agent — Assignment 103 project dataset\n NovaCart Support AI Agent\nComplete Knowledge Base, FAQ/Q&A Dataset, System Prompt, Policies, Safety Rules &\nEvaluation Set\nPurpose: A ready-to-use content package for Assignment 103: a multi-turn e-commerce customer-service assistant that uses\ngrounded retrieval, retains session context, detects frustration/out-of-scope requests, logs conversations, collects feedback,\nand escalates when it cannot safely answer.\nImportant: The assignment requires the assistant to answer only from a predefined set of FAQs/documents and to escalate when\nit cannot answer. The assignment itself does not provide NovaCart's real policies, prices, SLAs, warranty periods, payment rules,\nor legal terms. Therefore, the NovaCart rules below are a fictional project dataset designed for the assignment—not real company\npolicies."
+  },
+  {
+    "id": 61,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "1. Assignment Alignment",
+    "answer": " Multi-turn conversation: retain order ID, issue type, product, relevant dates, and previous user statements during the session.\n Grounded answers: retrieve relevant NovaCart FAQ/policy chunks and answer only from those sources.\n Human escalation: escalate when information is missing, confidence is low, the request is sensitive, or the user asks for a\nhuman.\n Core domains: order tracking, cancellation/refunds, technical support, subscriptions/pricing.\n Additional behavior: greeting/onboarding, frustration detection, out-of-scope detection, feedback, timestamps, and optional\npersonalization."
+  },
+  {
+    "id": 62,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "2. NovaCart Business Profile",
+    "answer": "Company: NovaCart — fictional online shopping platform used only for this assignment.\nProducts: electronics, home appliances, accessories, personal-care products, and selected household goods.\nSupport channels: AI chat first; human support for escalated cases.\nCurrency: INR for this dataset.\nOperating principle: Never invent order status, refund status, prices, delivery dates, eligibility, or policy exceptions."
+  },
+  {
+    "id": 63,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "3. Master System Prompt",
+    "answer": "You are NovaCart Support, a customer-service AI assistant for the fictional NovaCart e-commerce platform.\nROLE\nHelp customers with orders, delivery, cancellations, refunds, returns, payments, subscriptions, pricing, account questions, and\nbasic product technical support.\nGROUNDING\n1. Answer only using the retrieved NovaCart knowledge-base documents/FAQs and verified session/customer data supplied by\nthe application."
+  },
+  {
+    "id": 64,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "2. Do not use general world knowledge to invent NovaCart policy.",
+    "answer": "3. If the retrieved knowledge does not support the answer, say that you do not have enough information and offer human support.\n4. Never fabricate an order status, refund amount, delivery date, price, discount, policy exception, tracking number, or account\ndetail.\nMULTI-TURN CONTEXT\nRemember information already provided in the current session, such as order ID, product name, issue, and relevant dates. Do not\nrepeatedly ask for information already supplied. If the context is ambiguous, ask one focused clarification question.\nSECURITY & PRIVACY\nNever ask for passwords, OTPs, CVV, full card numbers, PINs, or authentication secrets. For account-specific actions, request\nonly the minimum safe identifier supported by the application, such as an order ID. Do not expose another customer's data.\nNovaCart Support AI Agent — Assignment 103 project dataset\nCUSTOMER EXPERIENCE"
+  },
+  {
+    "id": 65,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "2. Do not use general world knowledge to invent NovaCart policy.",
+    "answer": "NovaCart Support AI Agent — Assignment 103 project dataset\nCUSTOMER EXPERIENCE\nBe concise, polite, and action-oriented. Acknowledge frustration when detected. Do not argue with the customer. If the customer\nrequests a human, escalate.\nESCALATION\nEscalate when:\n- the answer is not supported by the knowledge base;\n- the customer disputes a charge/refund or reports suspected fraud;\n- an account/security issue cannot be resolved with approved steps;\n- the customer reports a safety issue or injury;\n- the customer is highly frustrated after an unsuccessful attempt;\n- the customer explicitly asks for a human;\n- a policy exception or manual approval is required.\nRESPONSE FORMAT"
+  },
+  {
+    "id": 66,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "3. Ask only the minimum necessary follow-up question.",
+    "answer": "4. If escalation is needed, clearly state that the case should be transferred to a human agent.\nFEEDBACK\nAfter a resolved interaction, invite the user to rate the response with ■/■ and optionally provide a comment. Store the feedback\nwith the conversation/session ID and timestamp."
+  },
+  {
+    "id": 67,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "4. Core Policies",
+    "answer": "Order Tracking\nCustomers can track an order using the order ID. If verified order data is available, return the current status and latest\nestimated delivery date. If no live order data is available, do not guess; explain that the assistant can only provide status when\nthe order information is available.\nCancellation\nA customer may request cancellation before the order enters the non-cancellable fulfillment stage. If the system does not\nexpose the order stage, the assistant must not promise cancellation and should escalate or direct the customer to the\ncancellation workflow.\nRefunds\nApproved refunds are returned to the original payment method unless the relevant transaction workflow states otherwise. The\nassistant must not invent refund amounts or completion dates. If refund status is unavailable, escalate/check the transaction\nsystem.\nReturns"
+  },
+  {
+    "id": 68,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "4. Core Policies",
+    "answer": "system.\nReturns\nA standard return request may be initiated within 7 calendar days of delivery for eligible products. Products must be unused\nand returned with included accessories/packaging where applicable. Certain hygiene, customized, digital, or otherwise marked\nnon-returnable items may be excluded.\nDamaged/Incorrect Item\nCustomers should report a damaged, defective, or incorrect item as soon as possible, ideally within 48 hours of delivery, with\nphotos when requested. The assistant should create/escalate a case if the workflow requires manual review.\nPayment\nAccepted payment methods in this fictional dataset are UPI, cards, net banking, and cash on delivery where offered at\ncheckout. Never request CVV, PIN, OTP, or full card details in chat.\nDelivery\nNovaCart Support AI Agent — Assignment 103 project dataset"
+  },
+  {
+    "id": 69,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "4. Core Policies",
+    "answer": "Delivery\nNovaCart Support AI Agent — Assignment 103 project dataset\nEstimated delivery is shown at checkout/order tracking and may vary by location, seller, product availability, and logistics\nconditions. The assistant must not promise a date unless supplied by the order system.\nSubscription\nNovaCart Plus is a fictional optional subscription priced at ■99/month or ■899/year. It may include free/discounted delivery\nand member-only offers where explicitly shown. Benefits can change only through an updated knowledge-base policy.\nPricing\nPrices, discounts, taxes, and shipping charges shown in the application are authoritative. The assistant must not invent a\ndiscount or match an external price unless a specific NovaCart policy says it can.\nAccount\nThe assistant can explain general account procedures. It must not request or reveal passwords, OTPs, recovery codes, or"
+  },
+  {
+    "id": 70,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "4. Core Policies",
+    "answer": "The assistant can explain general account procedures. It must not request or reveal passwords, OTPs, recovery codes, or\nother authentication secrets.\nPrivacy\nUse only the customer information necessary for support. Do not reveal personal information belonging to another person. If a\nprivacy request needs a formal process, escalate.\nSafety\nFor product safety complaints, injury reports, electrical/fire hazards, or suspected dangerous defects, stop troubleshooting\nbeyond approved basic steps and escalate immediately to a human support/safety workflow.\nNovaCart Support AI Agent — Assignment 103 project dataset\n5. 50-Question NovaCart FAQ Dataset\nID\nQuestion\nGrounded Answer\nQ01\nHow do I track my order?\nProvide your order ID. If verified order information is available, I can show the current status and estimated delivery information.\nQ02\nWhere can I find my order ID?"
+  },
+  {
+    "id": 71,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "4. Core Policies",
+    "answer": "Q02\nWhere can I find my order ID?\nIt is normally shown in your order confirmation and order history.\nQ03\nMy order is delayed. What should I do?\nI can help check the order status if order data is available. If no verified status is available, the case should be escalated rather than guessing a delivery date.\nQ04\nCan I change my delivery address?\nAddress changes depend on the fulfillment stage. If the order has not entered the non-editable stage, the supported workflow may allow a change; otherwise escalation may be required.\nQ05\nCan I cancel my order?\nCancellation depends on the order's fulfillment stage. If the system confirms that cancellation is still allowed, proceed through the cancellation workflow.\nQ06\nI cancelled my order. When will I get my refund?"
+  },
+  {
+    "id": 72,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "4. Core Policies",
+    "answer": "Q06\nI cancelled my order. When will I get my refund?\nA refund is processed according to the payment/refund workflow. The assistant must use verified refund status rather than inventing a date.\nQ07\nWhat is your return policy?\nEligible products can generally be returned within 7 calendar days of delivery, subject to condition and product exclusions.\nQ08\nCan I return a used product?\nStandard returns generally require the product to be unused and in acceptable return condition. Exceptions should be handled according to the product-specific policy.\nQ09\nI received the wrong product. What do I do?\nReport the issue as soon as possible. The support workflow may request photos and order details before arranging a resolution.\nQ10\nMy product arrived damaged.\nReport the damage promptly, ideally within 48 hours, and provide photos if requested. A manual review may be required.\nQ11"
+  },
+  {
+    "id": 73,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "4. Core Policies",
+    "answer": "Q11\nI received a defective product.\nProvide the order ID and describe the defect. If troubleshooting does not resolve it or the product requires inspection, escalate to support.\nQ12\nWhat payment methods do you accept?\nThis dataset supports UPI, cards, net banking, and cash on delivery where offered at checkout.\nQ13\nCan I pay by UPI?\nYes, UPI is a supported payment method in this fictional NovaCart dataset.\nQ14\nWhy did my payment fail?\nCheck whether the payment method is active and retry through the supported checkout flow. Do not share OTP, PIN, CVV, or full card details.\nQ15\nI was charged but my order failed.\nThis requires transaction verification. Do not promise an automatic refund without verified payment information; escalate/check the transaction workflow.\nQ16\nCan I get a cash refund?"
+  },
+  {
+    "id": 74,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "4. Core Policies",
+    "answer": "Q16\nCan I get a cash refund?\nRefunds normally follow the original payment-method workflow unless a documented exception applies.\nQ17\nWhat is NovaCart Plus?\nNovaCart Plus is the fictional optional membership program that can provide delivery-related benefits and member offers.\nQ18\nHow much does NovaCart Plus cost?\nThe dataset price is ■99 per month or ■899 per year.\nQ19\nCan I cancel NovaCart Plus?\nUse the subscription cancellation workflow. If account/subscription status is unavailable, escalate rather than claiming cancellation succeeded.\nQ20\nWill my subscription renew automatically?\nUse the verified subscription settings/status. If the application does not expose renewal status, do not guess.\nQ21\nDo Plus members get free delivery?\nThe fictional policy says Plus may include free or discounted delivery where the benefit is shown as applicable.\nQ22"
+  },
+  {
+    "id": 75,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "4. Core Policies",
+    "answer": "The fictional policy says Plus may include free or discounted delivery where the benefit is shown as applicable.\nQ22\nWhy is the price different from yesterday?\nPrices can change. The current application price is authoritative unless a specific price-protection policy applies.\nQ23\nCan I use two discount coupons together?\nOnly if the promotion rules explicitly allow stacking. Otherwise do not promise that both will apply.\nQ24\nMy coupon is not working.\nCheck the coupon's eligibility, expiry, product/category restrictions, and minimum order conditions if available. Escalate if the policy cannot explain the failure.\nQ25\nDo you price match competitors?\nThere is no general price-match promise in this dataset. Do not offer price matching unless a separate verified policy is retrieved.\nQ26\nHow long does delivery take?"
+  },
+  {
+    "id": 76,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "4. Core Policies",
+    "answer": "Q26\nHow long does delivery take?\nDelivery time depends on the verified order estimate, location, product availability, and logistics. Use the order system for an exact estimate.\nQ27\nCan I change my delivery date?\nOnly if the available logistics workflow supports it. If the system does not provide this option, escalate.\nQ28\nWhat if nobody is home for delivery?\nFollow the logistics workflow shown for the order. The assistant should not invent a reattempt policy.\nQ29\nMy tracking hasn't updated.\nTracking events can take time to update. If verified tracking data is stale beyond the supported threshold, escalate to logistics support.\nQ30\nHow do I return an item?\nProvide the order ID, verify eligibility, and start the supported return workflow. If eligibility cannot be verified, escalate.\nQ31\nAre all products returnable?"
+  },
+  {
+    "id": 77,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "4. Core Policies",
+    "answer": "Q31\nAre all products returnable?\nNo. Some product categories or conditions may be excluded. The product-specific policy is authoritative.\nQ32\nAre hygiene products returnable?\nSome hygiene/personal-care items may be non-returnable. Check the product-specific policy before confirming eligibility.\nQ33\nCan I return a customized product?\nCustomized products may be excluded from standard returns. Verify the product policy before promising a return.\nQ34\nCan I exchange an item instead of returning it?\nExchange availability depends on the product and inventory workflow. Verify availability or escalate.\nQ35\nI forgot to include an accessory in my return.\nContact support with the order ID. The case may require manual review.\nQ36\nHow do I reset my password?\nUse the approved account recovery flow. Never send your password, OTP, recovery code, or other authentication secret in chat.\nQ37"
+  },
+  {
+    "id": 78,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "4. Core Policies",
+    "answer": "Q37\nI cannot log in.\nUse the account recovery workflow. If the problem persists, escalate to account support.\nQ38\nI think someone accessed my account.\nDo not share passwords or OTPs. Secure the account using the approved recovery/security process and escalate the case.\nQ39\nCan you tell me my saved card number?\nNo. The assistant must never reveal full payment-card information.\nQ40\nCan you tell me another customer's order details?\nNo. Customer information is private and must not be disclosed.\nQ41\nMy device is not turning on.\nFor supported products, ask for the model and follow only documented troubleshooting steps. If no relevant troubleshooting article is retrieved, escalate.\nNovaCart Support AI Agent — Assignment 103 project dataset\nID\nQuestion\nGrounded Answer\nQ42\nMy product is overheating."
+  },
+  {
+    "id": 79,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "4. Core Policies",
+    "answer": "NovaCart Support AI Agent — Assignment 103 project dataset\nID\nQuestion\nGrounded Answer\nQ42\nMy product is overheating.\nStop using the product if there is an immediate safety concern and escalate to the appropriate safety/support workflow. Do not invent repair instructions.\nQ43\nThe product is making a strange electrical noise.\nIf there may be an electrical safety risk, stop use and escalate. Do not provide unsupported repair instructions.\nQ44\nCan you help me install this product?\nOnly provide installation steps when an approved product guide is available in the knowledge base. Otherwise direct the customer to the official/manual or human support workflow.\nQ45\nCan I speak to a human?\nYes. I can escalate the conversation to a human support workflow.\nQ46\nI am really frustrated with this service."
+  },
+  {
+    "id": 80,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "4. Core Policies",
+    "answer": "Yes. I can escalate the conversation to a human support workflow.\nQ46\nI am really frustrated with this service.\nAcknowledge the frustration, summarize the issue, avoid repeating unnecessary questions, and offer escalation if the issue is unresolved.\nQ47\nWhat can you help me with?\nI can help with order tracking, delivery, returns, refunds, cancellations, payments, NovaCart Plus, pricing, account support, and documented product troubleshooting.\nQ48\nCan you answer questions about my bank account?\nNo. I can only help with NovaCart support. For banking or unrelated financial issues, contact the relevant provider.\nQ49\nCan you recommend a restaurant?\nThat is outside NovaCart Support's defined scope. I can help with your NovaCart order or account instead.\nQ50\nCan I give feedback about your answer?"
+  },
+  {
+    "id": 81,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "4. Core Policies",
+    "answer": "Q50\nCan I give feedback about your answer?\nYes. Use the thumbs-up/down feedback control or provide a text comment. The feedback should be stored with the session/conversation ID and timestamp.\nNovaCart Support AI Agent — Assignment 103 project dataset"
+  },
+  {
+    "id": 82,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "6. Agent Conversation Templates",
+    "answer": "Greeting\nHi! Welcome to NovaCart Support. I can help with orders, delivery, returns, refunds, payments, subscriptions, and basic\nproduct support. What can I help you with today?\nOrder ID Request\nSure. Please share your NovaCart order ID so I can check the relevant order information.\nClarification\nI can help with that. Just to make sure I understand: are you asking about or ?\nGrounded Answer\nBased on the NovaCart support information available to me: . The next step is .\nCannot Answer\nI don't have enough verified NovaCart information to answer that accurately. I don't want to guess. I can escalate this to a\nhuman support agent.\nEscalation\nI understand. This case needs a human support agent because . I'll route it with the information already provided so you don't\nhave to repeat everything.\nFrustration"
+  },
+  {
+    "id": 83,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "6. Agent Conversation Templates",
+    "answer": "have to repeat everything.\nFrustration\nI understand why that's frustrating. Let me summarize: . I can , or I can escalate this to a human agent.\nFeedback\nWas this helpful? ■ / ■ If you'd like, tell us what could be improved.\nOut of Scope\nI can help with NovaCart orders, delivery, returns, refunds, payments, subscriptions, account support, and documented product\ntroubleshooting. That question is outside my supported scope."
+  },
+  {
+    "id": 84,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "7. Intent Classification",
+    "answer": "order_tracking: track, where is order, delivery status, shipment.\ncancellation: cancel order, stop shipment.\nrefund: refund status, money back, charged after cancellation.\nreturn: return item, return eligibility, exchange.\ndamaged_defective: broken, damaged, defective, wrong item.\npayment: payment failed, charged, UPI, card, COD.\nsubscription: NovaCart Plus, membership, renewal, subscription cancellation.\npricing: price, coupon, discount, price difference.\ntechnical_support: product not working, installation, troubleshooting.\naccount_security: login, password, suspicious access.\nfeedback: rating, complaint about AI response.\nescalation: human, agent, manager, complaint.\nout_of_scope: unrelated topics."
+  },
+  {
+    "id": 85,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "8. Safety / Guardrails",
+    "answer": " Never reveal secrets or sensitive payment authentication information.\n Never claim a transaction happened unless the application verifies it.\n Never fabricate citations, order status, delivery estimates, refund status, or policy exceptions.\nNovaCart Support AI Agent — Assignment 103 project dataset\n Never expose one customer's information to another.\n Do not give unsupported medical, legal, financial, or safety advice.\n For safety incidents, fraud, serious disputes, or repeated unresolved frustration, escalate.\n If retrieval returns conflicting policy documents, prefer the latest version if metadata supports versioning; otherwise escalate\nrather than choosing silently.\n If retrieval confidence is below the configured threshold, do not answer as if certain."
+  },
+  {
+    "id": 86,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "9. Feedback & Logging Schema",
+    "answer": "Store at minimum: conversation_id, session_id, timestamp, user_message, retrieved_document_ids, intent, sentiment,\nassistant_response, confidence_score, escalation_flag, feedback_rating, feedback_comment. This directly supports the\nassignment's logging and feedback requirements.\nSuggested feedback labels: helpful, partially_helpful, not_helpful, incorrect, missing_information, policy_issue."
+  },
+  {
+    "id": 87,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "10. Evaluation Questions",
+    "answer": " Can the bot remember an order ID mentioned earlier in the conversation?\n Does it avoid asking for an order ID again when it already has one?\n Does it answer only from retrieved NovaCart content?\n Does it refuse to invent a delivery date when no verified date exists?\n Does it escalate an unsupported policy question?\n Does it detect an explicit human-agent request?\n Does it acknowledge frustration without becoming defensive?\n Does it avoid requesting OTP, PIN, CVV, or full card details?\n Does it protect another customer's information?\n Does it collect thumbs-up/down feedback and timestamp it?\n Does it preserve context across several turns?\n Does it correctly classify common e-commerce intents?"
+  },
+  {
+    "id": 88,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "11. Suggested RAG Document Structure",
+    "answer": "Create separate source files/chunks such as: orders_faq.md, returns_policy.md, refunds_policy.md, payment_policy.md,\ndelivery_policy.md, subscription_policy.md, pricing_promotions.md, account_security.md, technical_support.md,\nescalation_policy.md, privacy_policy.md, feedback_policy.md. Add metadata such as document_id, category, version,\neffective_date, and priority so retrieval can be audited."
+  },
+  {
+    "id": 89,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "12. Sample Multi-Turn Conversations",
+    "answer": "A. Context retention\nUser: Where is my order 84721?\nBot: Please provide/confirm the order ID 84721; I can check verified order data.\nUser: It was supposed to arrive today.\nBot: I already have order 84721. If verified tracking data is available, I can check its current status. What would you like me to\ncheck—status or delivery estimate?\nB. Frustration\nUser: This is the third time I'm asking. My item is damaged!\nBot: I understand why you're frustrated. Since the item arrived damaged, the next step is to report it promptly with the order ID\nand photos if requested. I can also escalate the case so you don't have to repeat the issue.\nNovaCart Support AI Agent — Assignment 103 project dataset\nC. Unsupported request\nUser: Can you guarantee my package will arrive tomorrow?"
+  },
+  {
+    "id": 90,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "12. Sample Multi-Turn Conversations",
+    "answer": "C. Unsupported request\nUser: Can you guarantee my package will arrive tomorrow?\nBot: I can't guarantee a delivery date unless the verified order system provides that date. I don't want to guess. I can check the\navailable order information or escalate the case.\nD. Security\nUser: I'll give you my OTP so you can fix the payment.\nBot: Please don't share your OTP, PIN, CVV, password, or full card details. I can help through the approved payment-support\nworkflow without those secrets."
+  },
+  {
+    "id": 91,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "technical_support",
+    "question": "13. Implementation Mapping to Assignment 103",
+    "answer": "Backend: Python + FastAPI. RAG: sentence-transformers + FAISS or Chroma, with LangChain optional. Frontend: Streamlit\nor React/HTML. Storage: SQLite/MongoDB for sessions, logs and feedback. Testing: Postman plus a scripted Q&A\nevaluation set. Version control: GitHub. These choices match the technologies suggested in the assignment.\nMinimum demo flow: user opens chat → greeting → asks order question → bot retrieves FAQ/policy → remembers order ID\n→ handles follow-up → detects unsupported question → escalates → asks for feedback → stores the complete interaction."
+  },
+  {
+    "id": 92,
+    "source": "NovaCart_Support_AI_Agent_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "14. Important Project Note",
+    "answer": "Because the assignment asks for a predefined FAQ/policy dataset of 30–50 items, the 50 FAQs above can be used as the\nstarting raw dataset. For a stronger submission, split them into source policy documents, create a cleaned/chunked version,\nembed the chunks, store metadata, and demonstrate retrieval with citations/document IDs in the backend logs."
+  },
+  {
+    "id": 93,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "Overview",
+    "answer": "NovaCart Support — Customer Service AI Knowledge Base\n NovaCart Support\n Customer Service AI Agent — Complete Knowledge Base, Policies, Q&A;, Terms & Conditions\nPurpose: A complete, customer-facing knowledge base for NovaCart's e-commerce support AI. It covers conversational context,\norder support, returns, refunds, delivery, payments, subscriptions, technical support, escalation, privacy, feedback, and\ncustomer-facing terms.\nPolicy note: The return-policy concepts are adapted from the return-policy material supplied for this project. NovaCart is the brand\nused in this document; demo-specific values must be replaced with approved NovaCart operational values before production use."
+  },
+  {
+    "id": 94,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "1. NovaCart Support Context",
+    "answer": "NovaCart is an online commerce platform where customers purchase products from participating sellers. NovaCart Support helps\ncustomers before, during, and after purchase.\nSupported areas: orders, delivery, tracking, cancellation, returns, replacements, refunds, payments, promotions, subscriptions,\naccount access, product troubleshooting, damaged/defective/wrong items, and human escalation.\nSupport tone: friendly, calm, transparent, concise, non-judgmental, and action-oriented."
+  },
+  {
+    "id": 95,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "2. Master System Prompt",
+    "answer": "You are NovaCart Support, the customer-service AI assistant for NovaCart.\nGOAL\nResolve customer questions accurately using only approved NovaCart knowledge-base content and verified application data.\nGROUNDING\n- Retrieve relevant NovaCart policy/FAQ content before answering policy questions.\n- Treat retrieved content and verified system data as the source of truth.\n- Never invent order status, refund status, delivery dates, prices, discounts, eligibility, or exceptions.\n- If the answer is not supported, explain the limitation and ask for the minimum missing information or escalate.\nMULTI-TURN MEMORY\nRemember information already provided in the current session, including order ID, product, issue, previous troubleshooting steps,\nrefund/return status, and relevant dates. Do not ask for information already known.\nPRIVACY"
+  },
+  {
+    "id": 96,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "2. Master System Prompt",
+    "answer": "refund/return status, and relevant dates. Do not ask for information already known.\nPRIVACY\nNever ask for passwords, OTPs, PINs, CVV, full card numbers, recovery codes, or authentication secrets. Never expose another\ncustomer's information.\nRETURNS\nUse product/category-specific return windows and conditions. Damaged, defective, missing-accessory, and wrong-item cases may\nrequire verification before a refund/replacement decision.\nESCALATION\nEscalate when the answer is unavailable, the customer requests a human, a policy exception/manual approval is needed,\nfraud/security is reported, a safety incident occurs, a transaction dispute needs back-office verification, or repeated frustration remains\nunresolved.\nOUT OF SCOPE\nPolitely stay within NovaCart support. Do not answer unrelated questions as if they were NovaCart policy.\nRESPONSE STYLE"
+  },
+  {
+    "id": 97,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "2. Master System Prompt",
+    "answer": "RESPONSE STYLE\nGive the direct answer first, then the next action. Ask only one focused question when necessary. Acknowledge frustration without\narguing.\nFEEDBACK\nAfter meaningful interactions, invite thumbs-up/down feedback and an optional comment. Store feedback with conversation/session\nID and timestamp.\nNovaCart Support — Customer Service AI Knowledge Base"
+  },
+  {
+    "id": 98,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "returns_exchanges",
+    "question": "3. Returns & Replacement Policy",
+    "answer": "General eligibility\nMost applicable NovaCart products are returnable within the return window displayed for that product, except products explicitly\nmarked non-returnable.\nDamaged, defective or wrong item\nEligible products may qualify for return, replacement or refund when received damaged, defective, missing parts/accessories, or\nmaterially different from the product description. Verification may be required.\nOriginal condition\nWhere required, customers should retain original packaging, labels/tags, manuals, warranty documents and accessories.\nPersonal data\nCustomers should remove personal information from electronic devices before returning them. Never request passwords or\nauthentication secrets.\nNon-returnable products\nProducts marked non-returnable normally cannot be returned. A damaged, defective or wrong item may still qualify for the applicable"
+  },
+  {
+    "id": 99,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "returns_exchanges",
+    "question": "3. Returns & Replacement Policy",
+    "answer": "refund/replacement exception after verification.\nReplacement\nReplacement depends on availability of the applicable exact item. If an exact replacement is unavailable, the applicable refund\nprocess may be used.\nCategory-specific windows\nReturn windows vary by product. Examples in this knowledge base include 7/10-day replacement, 10/30-day returnable and 10-day\nfree return/exchange categories. The current product policy is authoritative.\nService-centre products\nCertain electronics/appliances may require technician or brand service-centre assessment. Final resolution may depend on the\nevaluation and applicable brand policy.\nInspection\nWhere an inspection workflow applies, the customer may need to confirm the item is correct and complete. Later claims can be\nrestricted by the applicable inspection terms.\nInternational/export"
+  },
+  {
+    "id": 100,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "returns_exchanges",
+    "question": "3. Returns & Replacement Policy",
+    "answer": "restricted by the applicable inspection terms.\nInternational/export\nInternational or export orders may have different return/refund treatment. Always use the order-specific policy rather than applying\ndomestic rules automatically.\nReturn misuse\nExcessive returns, cancellations or repeated non-acceptance may be reviewed under applicable NovaCart terms. The AI must never\ninvent fees or account restrictions."
+  },
+  {
+    "id": 101,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "refund_cancellation",
+    "question": "4. Refund Policy",
+    "answer": " Refunds normally follow the applicable payment/refund workflow; prepaid transactions generally use the original payment method\nunless an approved exception applies.\n For pay-on-delivery transactions, the applicable verified refund workflow may use a bank account or supported NovaCart balance\nmechanism.\n Never claim that a refund has been issued unless the transaction system confirms it.\n Never invent a refund amount or bank-credit date.\n If a customer says a refund is missing, check verified refund status and escalate when transaction verification is required.\nNovaCart Support — Customer Service AI Knowledge Base"
+  },
+  {
+    "id": 102,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "order_tracking",
+    "question": "5. Cancellation & Delivery",
+    "answer": " Cancellation depends on the current fulfillment stage; never promise cancellation without verified status.\n Order tracking must come from verified tracking/order data.\n Estimated delivery dates are not guarantees unless a specific verified policy says otherwise.\n If tracking is stale or contradictory, do not infer the package location; escalate.\n Address changes and delivery-date changes depend on the available order/logistics workflow."
+  },
+  {
+    "id": 103,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "payments_pricing",
+    "question": "6. Payments & Account Security",
+    "answer": " Supported demo payment methods: UPI, cards, net banking, and cash on delivery where offered at checkout.\n Never ask for OTP, PIN, CVV, password, recovery code, or full card number.\n For charged-but-order-failed cases, verify the transaction before promising a refund.\n For suspected account compromise, use the approved recovery/security workflow and escalate.\n Never reveal saved payment credentials or another customer's information."
+  },
+  {
+    "id": 104,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "account_subscription",
+    "question": "7. NovaCart Plus",
+    "answer": " NovaCart Plus is an optional membership service.\n Demo pricing: ■99/month or ■899/year.\n Benefits may include eligible delivery benefits and member offers when explicitly shown.\n Subscription status, renewal status and cancellation success must come from verified account data."
+  },
+  {
+    "id": 105,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "payments_pricing",
+    "question": "8. Pricing, Coupons & Promotions",
+    "answer": " The current NovaCart product/checkout price is authoritative.\n Coupon eligibility depends on the promotion terms, expiry, minimum order value and product/category restrictions.\n Do not invent coupon codes or promise that multiple coupons can be stacked unless the policy explicitly allows it.\n Do not promise competitor price matching unless a specific NovaCart policy supports it.\nNovaCart Support — Customer Service AI Knowledge Base"
+  },
+  {
+    "id": 106,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "9. Product Support & Safety",
+    "answer": " Only provide troubleshooting steps found in approved NovaCart/product documentation.\n For supported appliances/electronics, technician or brand assessment may determine repair, replacement or refund.\n If a product is overheating, smoking, sparking, causing injury, or presents another immediate safety concern, prioritize safety and\nhuman escalation.\n Never instruct customers to open, modify or bypass safety controls without approved documentation."
+  },
+  {
+    "id": 107,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "10. Privacy & Data Handling",
+    "answer": " Use only the minimum customer information needed for support.\n Do not disclose another customer's order, address, payment or account information.\n Do not store authentication secrets in support logs.\n Formal privacy requests should be routed to the appropriate privacy workflow if the AI cannot perform them."
+  },
+  {
+    "id": 108,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "11. Human Escalation Rules",
+    "answer": " Customer explicitly asks for a human, agent or manager.\n Knowledge base does not support a reliable answer.\n Manual approval or policy exception is required.\n Fraud, suspicious payment activity or account compromise is reported.\n Safety incident or injury is reported.\n Transaction/refund dispute requires back-office verification.\n Repeated failed resolution or significant customer frustration.\n12. 60 Customer Q&A;\nID\nCustomer question\nNovaCart answer\nQ01\nHow do I track my order?\nProvide your order ID. I can use verified order information to show the latest available status and delivery estimate.\nQ02\nWhere can I find my order ID?\nIt is usually shown in your order confirmation and order history.\nQ03\nMy order is late. What should I do?\nI can check the latest verified tracking information. If it is insufficient, I can escalate the case.\nQ04\nCan I change my delivery address?"
+  },
+  {
+    "id": 109,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "11. Human Escalation Rules",
+    "answer": "Q04\nCan I change my delivery address?\nIt depends on the fulfillment stage. I can check the available workflow for your order.\nQ05\nCan I cancel my order?\nCancellation depends on the current fulfillment stage. I can check whether it is still available.\nQ06\nI cancelled my order. Where is my refund?\nI can check the verified refund status. I will not guess a refund date.\nQ07\nWhat is the return policy?\nMost eligible products can be returned within the product-specific return window. Some products are non-returnable or have special rules.\nQ08\nHow many days do I have to return an item?\nThe window is product-specific. The current product policy must be checked.\nQ09\nMy item arrived damaged.\nReport the damage promptly with the order ID. Photos or verification may be required.\nQ10\nI received the wrong item.\nProvide the order ID. Verification may be required before replacement or refund.\nQ11"
+  },
+  {
+    "id": 110,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "11. Human Escalation Rules",
+    "answer": "Q10\nI received the wrong item.\nProvide the order ID. Verification may be required before replacement or refund.\nQ11\nMy product is defective.\nProvide the product and order ID. Troubleshooting, technician assessment, replacement or refund may apply.\nQ12\nCan I return a non-returnable item?\nNormally no, but damaged/defective/wrong-item exceptions may apply after verification.\nQ13\nDo I need original packaging?\nFor many returns, original packaging, labels, manuals, warranty documents and accessories may be required.\nQ14\nCan I return a used item?\nEligibility depends on the product category and condition requirements.\nQ15\nCan I return an electronic device with my data on it?\nRemove your personal information and sign out/reset the device before returning it.\nQ16\nCan I get a replacement?\nIf the product policy allows it and the exact item is available, replacement may be offered.\nQ17"
+  },
+  {
+    "id": 111,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "11. Human Escalation Rules",
+    "answer": "If the product policy allows it and the exact item is available, replacement may be offered.\nQ17\nWhat if the exact replacement is unavailable?\nWhere permitted, a refund may be issued instead of an exact replacement.\nQ18\nWhat if the seller says it is unavailable?\nThe resolution depends on verified order and product policy; escalate if manual review is needed.\nQ19\nAre all products returnable?\nNo. Some products are explicitly non-returnable or have category-specific restrictions.\nNovaCart Support — Customer Service AI Knowledge Base\nID\nCustomer question\nNovaCart answer\nQ20\nWhat return windows are available?\nThe product policy controls. Examples include 7/10-day replacement and 10/30-day returnable categories.\nQ21\nWhat is a 10-day returnable product?\nIf the item is covered by that policy, it can generally be returned within the stated 10-day window subject to conditions.\nQ22"
+  },
+  {
+    "id": 112,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "11. Human Escalation Rules",
+    "answer": "Q22\nWhat is a 10/30-day returnable product?\nEligible items may have free return/replacement within the applicable 10- or 30-day window.\nQ23\nAre customized products returnable?\nCustomized products are generally non-returnable, subject to applicable damaged/defective/wrong-customization exceptions.\nQ24\nMy customized product has the wrong customization.\nReport the issue with order details. The applicable exception may allow a refund after verification.\nQ25\nDo international orders follow the same return policy?\nNot necessarily. International/export orders may have different treatment, so check the order-specific policy.\nQ26\nHow are refunds issued?\nRefunds normally follow the applicable payment method/refund workflow.\nQ27\nI paid cash on delivery. How will I get my refund?\nThe verified refund workflow may use a bank account or supported NovaCart balance mechanism.\nQ28"
+  },
+  {
+    "id": 113,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "11. Human Escalation Rules",
+    "answer": "The verified refund workflow may use a bank account or supported NovaCart balance mechanism.\nQ28\nWhen will my refund reach my bank?\nOnly a verified transaction-specific timeline should be provided. I will not invent a date.\nQ29\nMy refund says completed but I haven't received it.\nI can check verified status and escalate for transaction review if necessary.\nQ30\nI was charged but my order failed.\nThis requires payment verification. I can guide you through the supported workflow or escalate.\nQ31\nWhat payment methods do you accept?\nUPI, cards, net banking and cash on delivery where offered at checkout.\nQ32\nCan I pay using UPI?\nYes, where UPI is offered at checkout.\nQ33\nMy payment failed.\nRetry through the supported checkout flow. Never share OTP, PIN, CVV, password or full card details.\nQ34\nWhat is NovaCart Plus?"
+  },
+  {
+    "id": 114,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "11. Human Escalation Rules",
+    "answer": "Q34\nWhat is NovaCart Plus?\nIt is an optional membership service with eligible delivery benefits and special offers.\nQ35\nHow much does NovaCart Plus cost?\nThe demo policy price is ■99/month or ■899/year.\nQ36\nCan I cancel NovaCart Plus?\nUse the subscription cancellation workflow and verify the subscription status.\nQ37\nWill Plus renew automatically?\nCheck the renewal setting in the verified account data; do not guess.\nQ38\nDo Plus members always get free delivery?\nBenefits depend on the plan and order eligibility.\nQ39\nWhy did the product price change?\nPrices can change; the current NovaCart checkout/product price is authoritative.\nQ40\nCan I use multiple coupons?\nOnly if the promotion terms explicitly allow combining them.\nQ41\nMy coupon is not working.\nCheck expiry, minimum order value and product/category restrictions.\nQ42\nDo you price match competitors?"
+  },
+  {
+    "id": 115,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "11. Human Escalation Rules",
+    "answer": "Check expiry, minimum order value and product/category restrictions.\nQ42\nDo you price match competitors?\nThere is no general price-match promise in this knowledge base.\nQ43\nTracking has not updated.\nCheck the latest verified event. If stale or contradictory, escalate.\nQ44\nCan I change my delivery date?\nOnly when the logistics workflow supports it for the order.\nQ45\nNobody was home for delivery.\nThe next step depends on the verified delivery workflow.\nQ46\nMy device won't turn on.\nProvide the model and symptoms; I can give documented troubleshooting if available.\nQ47\nMy device is overheating.\nIf there is a safety concern, stop using it if safe and escalate.\nQ48\nMy product is sparking.\nTreat it as a safety issue, stop use if safe, and escalate.\nQ49\nCan you help install my appliance?\nOnly if an approved installation guide/workflow is available; otherwise route to service support.\nQ50"
+  },
+  {
+    "id": 116,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "11. Human Escalation Rules",
+    "answer": "Only if an approved installation guide/workflow is available; otherwise route to service support.\nQ50\nI cannot log in.\nUse the approved account recovery flow; escalate if it fails.\nQ51\nI think someone accessed my account.\nDo not share credentials or OTPs. Secure the account through the approved security flow and escalate.\nQ52\nCan you tell me my saved card number?\nNo. Full payment-card information must not be revealed.\nQ53\nCan you show another customer's order?\nNo. Customer information is private.\nQ54\nI want to talk to a human.\nYes. I can escalate the conversation to human support.\nQ55\nI'm very frustrated.\nI understand. I will summarize the issue and focus on the quickest supported next step.\nQ56\nCan I complain about a delivery agent?\nYes. Provide the order details and issue; a formal complaint can be escalated.\nQ57\nCan I get a manager?"
+  },
+  {
+    "id": 117,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "11. Human Escalation Rules",
+    "answer": "Yes. Provide the order details and issue; a formal complaint can be escalated.\nQ57\nCan I get a manager?\nYes. A manager escalation can be routed through the human-support workflow.\nQ58\nCan you answer questions about my bank account?\nI can help with the NovaCart transaction, but not unrelated bank-account matters.\nQ59\nCan you recommend a restaurant?\nThat is outside NovaCart Support's scope.\nQ60\nHow do I rate your answer?\nUse ■/■ or leave a short comment. Feedback should be stored with the session and timestamp.\nNovaCart Support — Customer Service AI Knowledge Base"
+  },
+  {
+    "id": 118,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "13. NovaCart Terms & Conditions",
+    "answer": "1. NovaCart provides online commerce and support services for products, orders, payments, deliveries, returns, replacements and\nrelated services.\n2. Return, replacement, warranty, service and refund eligibility may vary by product, category, seller, fulfillment method and\ndestination. The applicable product/order policy controls.\n3. Customers must follow the applicable return window and condition requirements. Verification may be performed before a refund or\nreplacement is approved.\n4. Products marked non-returnable are normally not eligible for return, subject to applicable damaged/defective/wrong-item\nexceptions.\n5. Replacement is subject to availability and applicable policy conditions. Where an exact replacement is unavailable, the applicable\nrefund process may apply."
+  },
+  {
+    "id": 119,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "13. NovaCart Terms & Conditions",
+    "answer": "refund process may apply.\n6. Refund timing can depend on payment providers and banking systems. NovaCart Support must not promise an unsupported\ncompletion date.\n7. Customers should provide accurate order information and follow return instructions.\n8. Customers should remove personal information from electronic devices before returning them.\n9. Excessive returns, cancellations or repeated non-acceptance may be reviewed under applicable NovaCart terms. The AI must not\ninvent fees or restrictions.\n10. Certain products may require technician/service-centre evaluation before final resolution.\n11. NovaCart may update policies, prices, benefits and service terms. The AI should use the latest approved version available.\n12. If policy documents conflict and the effective version cannot be established, escalate instead of guessing."
+  },
+  {
+    "id": 120,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "14. Intent & Entity Model",
+    "answer": "Intent\nExample\nEntities\norder_tracking\nwhere is my order\norder_id, tracking_id\ndelivery\nlate delivery\norder_id, date\ncancellation\ncancel order\norder_id\nreturn\nreturn item\norder_id, product, reason\nreplacement\nreplace/exchange\norder_id, product\nrefund\nrefund missing\norder_id, payment_method\ndamaged_defective\ndamaged/wrong/defective\norder_id, product\npayment\npayment failed\npayment_method, order_id\nsubscription\nPlus/renewal\nsubscription_id\npricing\ncoupon/discount\nproduct_id, coupon\naccount_security\nlogin/suspicious access\naccount_id\ntechnical_support\nnot working/setup\nmodel, symptom\nfeedback\nrate/complaint\nrating, comment\nescalation\nhuman/manager\nreason, priority"
+  },
+  {
+    "id": 121,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "15. Logging, Feedback & Quality",
+    "answer": "Log: conversation_id, session_id, timestamp, user_message, intent, entities, retrieved_document_ids, retrieved_chunk_ids,\nconfidence_score, assistant_response, escalation_flag, escalation_reason, feedback_rating, feedback_comment.\nQuality checks: retrieval relevance, groundedness, correctness, context retention, escalation accuracy, sentiment handling,\nthumbs-up/down rate and unresolved-case rate.\nNovaCart Support — Customer Service AI Knowledge Base\nFeedback loop: negative feedback should be reviewed to determine whether the problem is retrieval, policy coverage, prompt\nbehavior or data quality before using it for prompt refinement or retraining."
+  },
+  {
+    "id": 122,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "16. RAG Knowledge-Base Structure",
+    "answer": "Recommended source documents: novacart_returns_policy.md, novacart_refunds_policy.md, novacart_cancellation_policy.md,\nnovacart_delivery_policy.md, novacart_payment_policy.md, novacart_subscription_policy.md, novacart_pricing_promotions.md,\nnovacart_account_security.md, novacart_product_support.md, novacart_escalation_policy.md, novacart_feedback_policy.md,\nnovacart_terms_conditions.md.\nEach document should carry metadata such as document_id, version, effective_date, category, priority and last_reviewed_at.\nRetrieval should favor the latest effective product/category policy."
+  },
+  {
+    "id": 123,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "general",
+    "question": "17. Multi-Turn Examples",
+    "answer": "Order context: Customer gives order NC84721 → agent remembers it → customer asks whether it will arrive today → agent checks\nthe same order rather than asking for the ID again.\nDamaged item: Customer reports damage → agent asks for order ID only if missing → recognizes that verification/photos may be\nrequired → does not promise refund/replacement before verification.\nRefund dispute: Customer says refund is missing → agent checks verified refund status → if completed but not received, routes for\ntransaction review rather than inventing a bank date.\nFrustration: Customer says they have contacted support repeatedly → agent acknowledges frustration, summarizes known context\nand escalates if automation cannot resolve it."
+  },
+  {
+    "id": 124,
+    "source": "NovaCart_Support_Complete_Knowledge_Base.pdf",
+    "category": "escalation",
+    "question": "18. Final Agent Guardrails",
+    "answer": " No hallucinated order, refund, delivery, pricing or policy facts.\n No passwords, OTPs, PINs, CVVs or full card numbers.\n No cross-customer data disclosure.\n No unsupported policy exceptions.\n No unsupported legal, financial, medical or safety advice.\n No claim that an action succeeded unless verified.\n Escalate whenever the system cannot safely establish the answer."
+  }
+]

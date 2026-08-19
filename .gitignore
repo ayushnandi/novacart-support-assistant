@@ -1,0 +1,30 @@
+# --- secrets: never commit these ---
+.env
+backend/.env
+frontend/.env
+*.env.local
+
+# --- python ---
+.venv/
+venv/
+env/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# --- generated data ---
+backend/app/rag/index/*.faiss
+backend/app/rag/index/*.pkl
+backend/data/review_queue.json
+*.db
+
+# --- node / vite ---
+node_modules/
+frontend/dist/
+.vite/
+
+# --- logs & os ---
+*.log
+.DS_Store
+Thumbs.db
