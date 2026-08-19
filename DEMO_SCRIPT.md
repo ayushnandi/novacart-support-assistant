@@ -96,7 +96,7 @@ message, type `ayush` into the "Demo user id" box in the header.
 | 4:34 | "VADER scores that at minus 0.68, past the threshold, so the answer comes with an offer to bring in a person. Stock VADER actually scored this message *positive*, because 'helps' is a positive word — the lexicon is tuned so complaints register and routine questions about damaged items don't." | Bot reply with the human offer line |
 | 4:47 | "And when the customer asks outright:" | Send: **`connect me to a human`** |
 | 4:52 | "Hard escalation. That's a regex, deliberately not left to the model, so a direct request is always honoured. It quotes the message back so the customer doesn't repeat themselves — and the reply carries the 'Handed to agent' badge." | Bot handoff reply + badge |
-| 5:02 | "Last thing: feedback. Thumbs down on the answer it couldn't give, with a comment." | Scroll up, click 👎 on the cricket reply, comment `wanted a real answer` |
+| 5:02 | "Last thing: feedback. Thumbs down on the answer it couldn't give — that's a POST to /feedback, stored against this exact message id." | Scroll up, click the 👎 under the cricket reply; the thumb stays filled |
 
 > Runs long? Cut turn 4 (`and what if I want to return it instead?`) first — turn 3 already
 > proves multi-turn context. Cut turn 5 (`what did I ask you first?`) second.
@@ -117,7 +117,7 @@ message, type `ayush` into the "Demo user id" box in the header.
 | Time | Say | Show |
 |---|---|---|
 | 5:32 | "The thumbs-down isn't just stored, it feeds a review queue — that's the feedback-loop bonus." | Terminal 2: `python scripts/export_review_queue.py` |
-| 5:38 | "Every disliked answer is exported with its question, intent, comment and timestamp, ready for prompt refinement or a new knowledge-base entry." | `cat data/review_queue.json` — show the entry just created |
+| 5:38 | "Every disliked answer is exported with its question, intent, timestamp, and any comment left through the API, ready for prompt refinement or a new knowledge-base entry." | `cat data/review_queue.json` — show the entry just created |
 
 ---
 

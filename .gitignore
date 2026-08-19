@@ -18,6 +18,8 @@ backend/app/rag/index/*.faiss
 backend/app/rag/index/*.pkl
 backend/data/review_queue.json
 *.db
+*.db.bak
+*.bak
 
 # --- node / vite ---
 node_modules/
